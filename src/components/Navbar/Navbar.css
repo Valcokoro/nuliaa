@@ -1,0 +1,122 @@
+@media screen and (min-width: 300px){
+    .small{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #3C3B6E;
+        left: 0;
+        top: 75px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .profile,
+    .about,
+    .projects{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        padding: 0px 20px;
+        margin: 20px 30px;
+    }
+    .phone-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: #3C3B6E;
+        background-color: #fff;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+
+    }
+    .logo{
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: #fff;
+        margin-top: 30px;
+        
+    }
+    .nav-links{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        width: 75%;
+    }
+    .profile,
+    .about,
+    .projects{
+        text-decoration: none;
+        color: #3C3B6E;
+        font-size: 20px;
+        padding: 0px 20px;
+        margin: 0px 20px;
+    }
+    .phone-menu-icon{
+        display: none;
+    }
+    .logo{
+        width: 80px;
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (min-width: 800px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: #fff;
+        color:#3C3B6E;
+        margin-right: 100px;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 750px;
+        list-style: none;
+        width: 75%;
+    }
+    .profile,
+    .about,
+    .projects{
+        text-decoration: none;
+        color: #3C3B6E;;
+        font-size: 20px;
+        padding: 0px 10px;
+        margin: 0px 20px;
+        cursor: pointer;
+    }
+    .phone-menu-icon{
+        display: none;
+    }
+    .logo{
+        width: 80px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}

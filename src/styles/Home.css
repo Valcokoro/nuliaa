@@ -1,0 +1,187 @@
+@media screen and (min-width: 300px){
+    .intro{
+        background-color: #FFFF;
+        height: 350px;
+        width: 100%;
+        margin-top: -15px;
+    }
+    .anuli-pics{
+        margin-top: 120px;
+        margin-left: 110px;
+        border-radius: 130px;
+    }
+    .name{
+        color: 	#B22234;
+        margin-left: 80px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .role{
+        color: #3C3B6E;
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    .power-bi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+        
+    }
+    .r-studio, .python, .tableau, .sql{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px;
+    }
+    .power-bi td, .r-studio td, .python td, 
+    .tableau td, .sql td {
+        border: 1px solid #3C3B6E;
+        padding: 8px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: left;
+        color: white;
+    }
+    #power-bi1{
+        background-color: #B22234;
+        width: 60%;
+    }
+    #power-bi2{
+        background-color: #ffff;
+        width: 30%;
+    }
+    #power-bi3{
+        background-color: #3C3B6E;
+        width: 10%;
+    }
+    #r-studio1{
+        background-color: #B22234;
+        width: 60%;
+    }
+    #r-studio2{
+        background-color: #ffff;
+        width: 30%;
+    }
+    #r-studio3{
+        background-color: #3C3B6E;
+        width: 10%;
+    }
+    #python1{
+        background-color: #B22234;
+        width: 50%
+    }
+    #python2{
+        background-color: #ffff;
+        width: 40%;
+    }
+    #python3{
+        background-color: #3C3B6E;
+        width: 10%;
+    }
+    #tableau1{
+        background-color: #B22234;
+        width: 50%
+    }
+    #tableau2{
+        background-color: #ffff;
+        width: 40%; 
+    }
+    #tableau3{
+        background-color: #3C3B6E;
+        width: 10%;
+    }
+    #sql1{
+        background-color: #B22234;
+        width: 50%;
+    }
+    #sql2{
+        background-color: #ffff;
+        width: 40%; 
+    }
+    #sql3{
+        background-color: #3C3B6E;
+        width: 10%;
+    }
+}
+
+
+@media screen and (min-width: 480px){
+    .intro{
+        height: 350px;
+    }
+    .anuli-pics{
+        margin-left: 220px;
+    }
+    .name{
+        color: 	#B22234;
+        margin-left: 180px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .role{
+        color: #3C3B6E;
+        margin-left: 240px;
+        font-size: 20px;
+    }
+    .power-bi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        height: 10px;
+        margin-left: 40px;
+        
+    }
+    .r-studio, .python, .tableau, .sql{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        height: 10px;
+        margin-left: 40px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 800px){
+    .intro{
+        height: 300px;
+    }
+    .anuli-pics{
+        margin-left: 520px;
+    }
+    .name{
+        color: 	#B22234;
+        margin-left: 480px;
+        margin-top: 20px;
+    }
+    .role{
+        color: #3C3B6E;
+        margin-left: 550px;
+        font-size: 20px;
+    }
+    .power-bi {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px;  
+    }
+    .r-studio, .python, .tableau, .sql{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 300px;
+    }
+}
+
+
+
+
