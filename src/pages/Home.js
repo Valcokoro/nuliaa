@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <section className='intro'>
             <img src={anuli} className='anuli-pics' />
-            <h1 className='name'>Anulika Azubuike</h1>
+            <h1 className='name'>Anulika Azubike</h1>
             <h2 className='role'>Data Analyst</h2>
             <div className='skills'>
                <table className='power-bi'>

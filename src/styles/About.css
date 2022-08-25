@@ -11,15 +11,16 @@
         margin-right: 30px;
     }
     .p-statement{
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: 10px;
     }
     .statement{
-        line-height: 40px;
+        width: 100%;
+        line-height: 30px;
         font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight: 500;
         color: #B22234;
         padding: 10px;
+        
     }
 
 }
@@ -63,12 +64,12 @@
         margin-top: 30px;
     }
     .about-pics{
-        width: 40%;
+        width: 35%;
         margin-left: 70px;
     }
     .p-statement{
-        margin-left: 700px;
-        margin-top: -490px;
+        margin-left: 610px;
+        margin-top: -450px;
     }
     .statement{
         line-height: 50px;
