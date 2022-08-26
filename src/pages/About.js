@@ -7,7 +7,7 @@ import anuli2 from '../assets/anuli2.jpeg';
 const About = () => {
     return (
         <section className='about-nuliaa'>
-            <img src={anuli2} className='about-pics' />
+            <img src={anuli2} className='about-pics' alt='Profile pics'/>
             <div className='p-statement'>
             <p className='statement'>
                 I am a data anaylst with experience using large data sets, along with analytical scripting tools and 

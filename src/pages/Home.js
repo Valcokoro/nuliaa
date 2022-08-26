@@ -8,7 +8,7 @@ import anuli from '../assets/anuli.jpeg';
 const Home = () => {
     return (
         <section className='intro'>
-            <img src={anuli} className='anuli-pics' />
+            <img src={anuli} className='anuli-pics' alt='profile pics'/>
             <h1 className='name'>Anulika Azubike</h1>
             <h2 className='role'>Data Analyst</h2>
             <div className='skills'>

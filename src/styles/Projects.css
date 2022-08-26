@@ -1,11 +1,13 @@
 @media screen and (min-width: 300px){
-    .projects{
+    .projects-page{
         width: 100%;
         height: 6550px;
         background-color: #3C3B6E;
     }
     .projects-head{
         text-decoration: underline;
+        color: #FFFF;
+        text-align: center;
     }
     .flex-container{
         display: flex;
@@ -255,22 +257,253 @@
         margin-left: 25px;
         margin-top: 5px;
     }
-
-    
     
 }
 
 
 
-
 @media screen and (min-width: 480px){
-   
+    .projects-page{
+        height: 10550px;
+        margin-top: 20px;
+    }
+    .flex-item{
+        height: 6550px;
+    }
+    .item{
+        width: 100%;
+        height: 1750px;
+        margin: 10px;
+        text-align: center;
+        background-color: #FFFF;
+    }
+    .pbi-pics1{
+        width: 400px;
+    }
+    .pbi-pics2{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .bi-description{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-description1{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-result1{
+        margin-left: 30px;
+    }
+    .cancer-data{
+        margin-left: 30px;
+    }
+    .r-pics1{
+        width: 400px;
+    }
+    .cancer-data_boxplot{
+        margin-left: 30px;
+    }
+    .r-pics2{
+        width: 400px;
+    }
+    .cancer-data_histogram{
+        margin-left: 20px;
+    }
+    .r-pics3{
+        width: 400px;
+    }
+    .r-pics4{
+        width: 400px;
+    }
+    .r-pics5{
+        width: 400px;
+    }
+    .cancer-data_confusionMatrix{
+        margin-left: 20px;
+    }
+    .r-pics6{
+        width: 400px;
+    }
+    .r-description2{
+        width: 80%;
+        font-size: 20px;
+        margin-left: 60px;
+        color: #3C3B6E;
+    }
+    .r-pics7{
+        width: 400px;
+        margin-top: 5px;
+    }
+    .r-pics8{
+        width: 400px;
+    }
+    .r-pics9{
+        width: 400px;
+    }
+    .r-pics10{
+        width: 400px;
+    }
+    .r-pics11{
+        width: 400px;
+    }
+    .r-pics12{
+        width: 400px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .r-pics13{
+        width: 400px;
+    }
+    .r-pics14{
+        width: 400px;
+    }
+    .r-pics15{
+        width: 350px;
+    }
     
 }
 
 
 
 @media screen and (min-width: 800px){
+    .flex-item{
+        width: 70%;
+        height: 8550px;
+        margin-left: 170px;
+    }
+    .item{
+        width: 70%;
+        height: 1650px;
+        margin-left: 170px;
+        text-align: center;
+        background-color: #FFFF;
+    }
+    .pbi-pics1{
+        width: 700px;
+    }
+    .pbi-pics2{
+        width: 700px;
+        margin-top: 20px;
+    }
+    .bi-description{
+        text-align: justify;
+    }
+    .r-description1{
+        text-align: justify;
+    }
+    .r-result1{
+        margin-left: 60px;
+    }
+    .cancer-data{
+        margin-left: 60px;
+    }
+    .r-pics1{
+        width: 700px;
+    }
+    .cancer-data_boxplot{
+        margin-left: 75px;
+    }
+    .r-pics2{
+        width: 700px;
+    }
+    .cancer-data_histogram{
+        margin-left: 70px;
+    }
+    .r-pics3{
+        width: 700px;
+    }
+    .set-seed{
+        margin-left: 60px;
+    }
+    .r-pics4{
+        width: 700px;
+    }
+    .cd_test{
+        color: #3C3B6E;
+        text-align: left;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .r-pics5{
+        width: 700px;
+    }
+    .cancer-data_confusionMatrix{
+        margin-left: 60px;
+    }
+    .r-pics6{
+        width: 700px;
+    }
+    .r-description2{
+        text-align: justify;
+    }
+    .hd{
+        margin-left: 60px;
+    }
+    .r-pics7{
+        width: 700px;
+    }
+    .hd_train{
+        margin-left: 60px;
+    }
+    .r-pics8{
+        width: 700px;
+    }
+    .hd_model{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics9{
+        width: 800px;
+    }
+    .rpart-plot{
+        margin-left: 60px;
+        font-size: 15px; 
+    }
+    .r-pics10{
+        width: 800px;
+    }
+    .rpart-rules{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics11{
+        width: 800px;
+    }
+    .hd_model2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics12{
+        width: 800px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .rpart-plot2{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics13{
+        width: 800px;
+    }
+    .hd_pred{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics14{
+        width: 800px;
+    }
+    .plotcp{
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .r-pics15{
+        width: 800px;
+    }
     
 }
 
