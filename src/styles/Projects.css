@@ -14,6 +14,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 0 5%;
+        margin-top: 150px;
     }
     .flex-item{
         width: 100%;
@@ -21,13 +22,15 @@
         margin: 10px;
         text-align: center;
         background-color: #FFFF;
+        animation: fade_in 1.4s ease-in;
     }
     .item{
         width: 100%;
         height: 1150px;
-        margin: 10px;
+        margin-top: 10px;
         text-align: center;
         background-color: #FFFF;
+        animation: fade_in 1.4s ease-in;
     }
     .bi-project{
         color: #B22234;
@@ -257,6 +260,28 @@
         margin-left: 25px;
         margin-top: 5px;
     }
+    .click-btn{
+        margin-left: 130px;
+        color: #B22234;
+        font-style: italic;
+    }
+    .pbi-btn{
+        margin-left: 80px;
+        margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    .rstudio-btn{
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    
     
 }
 
@@ -365,7 +390,16 @@
     .r-pics15{
         width: 350px;
     }
-    
+    .click-btn{
+        margin-left: 160px;
+    }
+    .pbi-btn{
+        margin-left: 120px;
+    }
+    .rstudio-btn{
+        margin-left: 30px;
+    }
+     
 }
 
 
@@ -504,7 +538,40 @@
     .r-pics15{
         width: 800px;
     }
+    .pbi-btn{
+        margin-left: 420px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .rstudio-btn{
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .click-btn{
+        margin-left: 570px;
+    }
     
+}
+
+
+@keyframes fade_in{
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+       
+        
+    }
 }
 
 
