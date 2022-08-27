@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Home.css';
-import anuli from '../assets/anuli.jpeg';
+import Typewriter from 'typewriter-effect';
+import Navbar from '../components/Navbar/Navbar';
+
 
 
 
@@ -8,43 +10,103 @@ import anuli from '../assets/anuli.jpeg';
 const Home = () => {
     return (
         <section className='intro'>
-            <img src={anuli} className='anuli-pics' alt='profile pics'/>
+            <Navbar/>
             <h1 className='name'>Anulika Azubike</h1>
             <h2 className='role'>Data Analyst</h2>
+            <p className='solutions'>
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter.typeString("Bringing Solutions to the Business World!")
+                        .pauseFor(2000)
+                        .deleteAll()
+                        .typeString("Analyzing Data for Right Decision Making!")
+                        .start();
+                    }}
+                />
+            </p>
             <div className='skills'>
-               <table className='power-bi'>
+                <p className='tech-skills'>TECHNICAL SKILLS</p>
+               <table className='power-bi'
+               data-aos="fade-left"
+               data-aos-duration="2500"
+               >
                    <tr>
                       <td id='power-bi1'> Microsoft Power BI </td> 
-                      <td id='power-bi2'> </td>
-                      <td id='power-bi3'> 90%</td>
                     </tr>
                </table>
-               <table className='r-studio'>
+                <table className='r-studio'
+                data-aos="fade-right"
+                data-aos-duration="2500"
+                >
                    <tr>
                       <td id='r-studio1'>R-Studio</td> 
-                      <td id='r-studio2'> </td>
-                      <td id='r-studio3'> 90%</td>
                     </tr>
-               </table>
-               <table className='python'>
+                </table>
+               <table className='python'
+               data-aos="fade-left"
+               data-aos-duration="2500"
+               >
                    <tr>
                       <td id='python1'> Python </td> 
-                      <td id='python2'> </td>
-                      <td id='python3'> 80%</td>
                     </tr>
                </table>
-               <table className='tableau'>
+               <table className='tableau'
+               data-aos="fade-right"
+               data-aos-duration="2500"
+               >
                    <tr>
                       <td id='tableau1'> Tableau </td> 
-                      <td id='tableau2'> </td>
-                      <td id='tableau3'> 80%</td>
                     </tr>
                </table>
-               <table className='sql'>
+               <table className='sql'
+               data-aos="fade-left"
+               data-aos-duration="2500"
+               >
                    <tr>
                       <td id='sql1'> SQL </td> 
-                      <td id='sql2'> </td>
-                      <td id='sql3'> 80%</td>
+                    </tr>
+               </table>
+            </div>
+            <div className='s-skills'>
+            <p className='soft-skills'>SOFT SKILLS</p>
+               <table className='team-player'
+                data-aos="fade-right"
+                data-aos-duration="2500"
+               >
+                   <tr>
+                      <td id='team-player1'> Team Player </td> 
+                    </tr>
+               </table>
+               <table className='comm'
+                data-aos="fade-left"
+                data-aos-duration="2500"
+               >
+                   <tr>
+                      <td id='comm1'>Good Communication Skills</td> 
+                    </tr>
+               </table>
+               <table className='lead'
+                data-aos="fade-right"
+                data-aos-duration="2500"
+               >
+                   <tr>
+                      <td id='lead1'> Leadership </td> 
+                    </tr>
+               </table>
+               <table className='manage'
+                data-aos="fade-left"
+                data-aos-duration="2500"
+               >
+                   <tr>
+                      <td id='manage1'> Time Management </td> 
+                    </tr>
+               </table>
+               <table className='details'
+                data-aos="fade-right"
+                data-aos-duration="2500"
+               >
+                   <tr>
+                      <td id='details1'> Attention to Details </td> 
                     </tr>
                </table>
             </div>

@@ -3,7 +3,6 @@ import '../styles/Projects.css';
 import pythonpics1 from '../assets/pythonpics1.png';
 import pythonpics2 from '../assets/pythonpics2.png';
 import pythonpics3 from '../assets/pythonpics3.png';
-import pythonpics4 from '../assets/pythonpics4.png';
 import pythonpics5 from '../assets/pythonpics5.png';
 import pythonpics6 from '../assets/pythonpics6.png';
 import pythonpics7 from '../assets/pythonpics7.png';
@@ -28,8 +27,7 @@ const Python = () => {
                     <h3 className='r-project1'>NETWORK  AND  TEXT  ANALYSES  IN PYTHON  USING  A  TRADE  DATA.</h3>
                     <img src={pythonpics1} className='r-pics1' alt='python result'/>
                     <img src={pythonpics2} className='r-pics2' alt='python result' />
-                    <img src={pythonpics3} className='r-pics3' alt='python result' />
-                    <img src={pythonpics4} className='r-pics4' alt='python result'/>
+                    <img src={pythonpics3} className='r-pics3' alt='python result'/>
                     <div className='python_project2'>
                     <h3 className='r-project2'>DATA VISUALIZATION OF  THE  HR DATA IN PYTHON.</h3>
                     <img src={pythonpics5} className='r-pics7' alt='python result'/>

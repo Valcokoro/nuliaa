@@ -50,7 +50,7 @@ const Rstudio = () => {
                         (cd_test_pred)<br/>
                         cd-cancer disease
                     </h4>
-                    <img src={rpics5} className='r-pics5' />
+                    <img src={rpics5} className='r-pics5' alt='result' />
                     <h4 className='cancer-data_confusionMatrix'>confusionMatrix(cd_test_pred,cd_test_labels)</h4>
                     <img src={rpics6} className='r-pics6' alt='confusionMatrix'/>
 

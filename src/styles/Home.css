@@ -1,25 +1,44 @@
 @media screen and (min-width: 300px){
     .intro{
-        background-color: #FFFF;
-        height: 350px;
+        background-image: url('../assets/data.jpg');
+        height: 850px;
         width: 100%;
         margin-top: -15px;
     }
-    .anuli-pics{
-        margin-top: 120px;
-        margin-left: 110px;
-        border-radius: 130px;
-    }
     .name{
-        color: 	#B22234;
-        margin-left: 80px;
+        color: 	#3C3B6E;
+        margin-left: 130px;
         margin-top: 20px;
         font-size: 25px;
     }
     .role{
-        color: #3C3B6E;
-        margin-left: 120px;
+        color: #B22234;
+        margin-left: 170px;
+        margin-top: -10px;
         font-size: 20px;
+    }
+    .solutions{
+        margin-top: 25px;
+        margin-left: 90px;
+        color: #FFFF;
+    }
+   .skills{
+        margin-top: 50px;
+    }
+    .tech-skills{
+        color: #3C3B6E;
+        margin-left: 20px;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .s-skills{
+        margin-top: 50px;
+    }
+    .soft-skills{
+        color: #FFFF;
+        margin-left: 20px;
+        font-weight: 600;
+        font-style: italic;
     }
     .power-bi {
         font-family: Arial, Helvetica, sans-serif;
@@ -45,73 +64,43 @@
         padding-bottom: 3px;
         text-align: left;
         color: white;
-    }
-    #power-bi1{
         background-color: #B22234;
-        width: 60%;
     }
-    #power-bi2{
-        background-color: #ffff;
-        width: 30%;
+    .team-player{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px; 
+        color: #B22234;
+        background-color: #FFFF;
     }
-    #power-bi3{
-        background-color: #3C3B6E;
-        width: 10%;
+    .comm, .lead, .manage, .details{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        height: 10px;
+        margin-left: 20px; 
+        color: #B22234;
+        background-color: #FFFF;
     }
-    #r-studio1{
-        background-color: #B22234;
-        width: 60%;
+    .team-player td, .comm td, .lead td, .manage td, .details td{
+        border: 1px solid #3C3B6E;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: left;
     }
-    #r-studio2{
-        background-color: #ffff;
-        width: 30%;
+    #comm1{
+        margin-top: 30px;
     }
-    #r-studio3{
-        background-color: #3C3B6E;
-        width: 10%;
-    }
-    #python1{
-        background-color: #B22234;
-        width: 50%
-    }
-    #python2{
-        background-color: #ffff;
-        width: 40%;
-    }
-    #python3{
-        background-color: #3C3B6E;
-        width: 10%;
-    }
-    #tableau1{
-        background-color: #B22234;
-        width: 50%
-    }
-    #tableau2{
-        background-color: #ffff;
-        width: 40%; 
-    }
-    #tableau3{
-        background-color: #3C3B6E;
-        width: 10%;
-    }
-    #sql1{
-        background-color: #B22234;
-        width: 50%;
-    }
-    #sql2{
-        background-color: #ffff;
-        width: 40%; 
-    }
-    #sql3{
-        background-color: #3C3B6E;
-        width: 10%;
-    }
+    
 }
 
 
 @media screen and (min-width: 480px){
     .intro{
-        height: 350px;
+        height: 850px;
     }
     .anuli-pics{
         margin-left: 220px;
@@ -127,6 +116,12 @@
         margin-left: 240px;
         font-size: 20px;
     }
+    .solutions{
+        margin-top: 25px;
+        margin-left: 130px;
+        font-size: 20px;
+        color: #FFFF;
+   }
     .power-bi {
         font-family: Arial, Helvetica, sans-serif;
         border-collapse: collapse;
@@ -143,6 +138,21 @@
         height: 10px;
         margin-left: 40px;
     }
+    .team-player{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        height: 10px;
+        margin-left: 40px;
+    }
+    .comm, .lead, .manage, .details{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+        height: 10px;
+        margin-left: 40px;
+    }
     
 }
 
@@ -150,7 +160,7 @@
 
 @media screen and (min-width: 800px){
     .intro{
-        height: 300px;
+        height: 950px;
     }
     .anuli-pics{
         margin-left: 520px;
@@ -159,18 +169,34 @@
         color: 	#B22234;
         margin-left: 480px;
         margin-top: 20px;
+        font-size: 40px;
     }
     .role{
         color: #3C3B6E;
         margin-left: 550px;
         font-size: 20px;
     }
+    .solutions{
+        margin-top: 30px;
+        margin-left: 390px;
+        font-size: 25px;
+        color: #FFFF;
+   }
+   .skills{
+       margin-top: 100px;
+   }
+   .tech-skills{
+       margin-left: 250px;
+   }
+   .soft-skills{
+       margin-left: 240px;
+   }
     .power-bi {
         font-family: Arial, Helvetica, sans-serif;
         border-collapse: collapse;
         width: 50%;
         height: 10px;
-        margin-left: 300px;  
+        margin-left: 320px;  
     }
     .r-studio, .python, .tableau, .sql{
         margin-top: 10px;
@@ -178,7 +204,22 @@
         border-collapse: collapse;
         width: 50%;
         height: 10px;
-        margin-left: 300px;
+        margin-left: 320px;
+    }
+    .team-player{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 320px; 
+    }
+    .comm, .lead, .manage, .details{
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        height: 10px;
+        margin-left: 320px;
     }
 }
 

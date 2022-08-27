@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
    return (
        <nav className="navbar">
-           <img src={logo} className='logo' />
+           <img src={logo} className='logo' alt='logo'/>
            <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'}
                onClick = {() => setIsMobile(false)}
            >

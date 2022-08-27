@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import '../styles/Projects.css';
+import AltNavbar from '../components/Navbar/AltNavbar';
 import PowerBI from '../components/PowerBI';
 import Rstudio from '../components/Rstudio';
 import Python from '../components/Python';
@@ -12,6 +13,7 @@ const Projects = () => {
         const onClickP = () => setProjects(<Python/>)
     return (
         <section className='projects-page'>
+            <AltNavbar/>
             <h1 className='projects-head'>PROJECTS</h1>
             <h3 className='click-btn'>Click button to view projects</h3>
                     <button onClick={onClickBI} className='pbi-btn'>Power BI Projects</button>
