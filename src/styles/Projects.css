@@ -290,8 +290,16 @@
         color: #B22234;
     }
     .python-btn{
-        margin-left: 200px;
+        margin-left: 85px;
         margin-top: 20px;
+        height: 50px;
+        background-color: #FFFF;
+        border: 5px solid #3C3B6E;
+        color: #B22234;
+    }
+    .tableau-btn{
+        margin-left: 30px;
+        margin-top:  10px;
         height: 50px;
         background-color: #FFFF;
         border: 5px solid #3C3B6E;
@@ -420,7 +428,9 @@
     }
     .python-btn{
         margin-left: 120px;
-    
+    }
+    .tableau-btn{
+        margin-left: 45px;
     }
      
 }
@@ -582,7 +592,14 @@
         border: 2px dotted #3C3B6E;
     }
     .python-btn{
-        margin-left: 550px;
+        margin-left: 420px;
+        margin-top: 40px;
+        width: 200px;
+        height: 50px;
+        border: 2px dotted #3C3B6E;
+    }
+    .tableau-btn{
+        margin-left: 50px;
         margin-top: 40px;
         width: 200px;
         height: 50px;

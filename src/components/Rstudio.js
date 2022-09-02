@@ -26,13 +26,6 @@ const Rstudio = () => {
                 <div className='flex-item'>
                     <h2 className='r-project'>R-Studio</h2>
                     <h3 className='r-project1'>Project 1 : <span className='cancer-diagnosis'>ANALYSIS OF CANCER DIAGNOSIS USING THE R STUDIO.</span></h3>
-                    <p className='r-description1'>
-                        Using the cancer data from CDC website, I tried to predict cancer diagnosis using the features related to the shape and size of the cancer nuclei. 
-                        The summary steps and results of this project are seen below. First, I tried to normalize all predictor variables using the diagnosis as a target/class 
-                        variable and other variables as predictors. I randomly split the data into training and test sets, with 80% observation in training sets and the 20% in test set. 
-                        I created four(4) dataframes ; the first one relating to the training set predictors, the second is the test set predictors, the last two are the training and test set class variables respectively.
-                         Using the KNN algorithm, I predicted the class variables for the training set. Lastly, to evaluate the model performance, I used the confusionn matrix and the specifity result reveals that 100% had benign cancer disease and 95% of these were malignant.
-                    </p>
                     <h3 className='r-result1'>Results</h3>
                     <h4 className='cancer-data'>summary(cancer_data)</h4>
                     <img src={rpics1} className='r-pics1' alt='cancer data'/>
